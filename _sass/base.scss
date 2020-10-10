@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6 { font-size: $base-font-size;  margin: 0px;  margin-top: 
 p, ul, ol { margin: 15px 0 15px 0 ;  color: var(--text-color); }
 a { text-decoration: underline;  color: var(--link-color); }
 a:hover { color: var(--background-color); background-color: var(--base-color); }
+img { max-width: 100%; }
 @media only screen and (max-device-width: 500px) { * { font-size: $mobile-font-size !important; } }
 
 /**
