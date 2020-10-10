@@ -71,6 +71,7 @@ textarea { vertical-align: top; }
 /**
  * Code and syntax highlighting
  */
+code { background-color: var(--code-background-color); border-radius: 2px; color: var(--code-text-color); }
 .lineno { color: var(--code-color-1); margin-right: 15px; }
 figure.highlight { margin: 5px 0; }
 pre { background-color: var(--code-background-color);  border: none; border-radius: 5px; padding: 7px;  margin: 0;  overflow:auto;  font-size: $base-font-size;  color: var(--code-text-color);  line-height: 1.7 !important;  font-family: $base-font-family !important; }
